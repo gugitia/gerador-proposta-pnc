@@ -1,0 +1,42 @@
+#pdf-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pdf-image {
+  max-width: 200px; /* Ajuste conforme necessário */
+  margin-bottom: 20px; /* Espaço entre a imagem e a tabela */
+}
+
+.pdf-table {
+  width: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.pdf-table th,
+.pdf-table td {
+  padding: 8px;
+  border: 2px solid #000; /* Borda mais grossa */
+}
+
+.pdf-table th {
+  background-color: #f2f2f2; /* Cor de fundo para as células de cabeçalho */
+}
+
+@media print {
+  #pdf-content {
+    padding: 0;
+  }
+
+  .pdf-image {
+    max-width: 150px; /* Reduz a largura da imagem para impressão */
+    margin-bottom: 10px;
+  }
+
+  .pdf-table {
+    width: 100%; /* Garantir que a tabela ocupe toda a largura da página impressa */
+  }
+}

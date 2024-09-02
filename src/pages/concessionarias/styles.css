@@ -1,0 +1,20 @@
+.concessionaria h2 {
+  text-align: center;
+}
+
+.concessionaria-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.concessionaria-table th,
+td {
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.button-add-concessionaria {
+  margin-left: 400px;
+}

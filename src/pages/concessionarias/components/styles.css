@@ -1,0 +1,19 @@
+.add-concessionaria {
+  background-color: green;
+  border-radius: 20px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.add-concessionaria button,
+.add-concessionaria input {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.add-concessionaria button {
+  margin-top: 20px;
+}
